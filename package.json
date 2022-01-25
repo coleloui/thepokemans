@@ -1,0 +1,30 @@
+{
+	"name": "thepokemans",
+	"version": "1.0.0",
+	"description": "In this assignment, you will create a Pokemon command-line game using OOP. It is up to you whether you decide to use ES6 class syntax or constructor functions. For the purposes of these instructions, we will use `class` syntax.",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"test": "jest --verbose"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/coleloui/thepokemans.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/coleloui/thepokemans/issues"
+	},
+	"homepage": "https://github.com/coleloui/thepokemans#readme",
+	"dependencies": {
+		"inquirer": "^8.2.0"
+	},
+	"devDependencies": {
+		"jest": "^27.4.7"
+	}
+}
