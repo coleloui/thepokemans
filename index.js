@@ -86,7 +86,9 @@ const game = async () => {
                 } else {
                     let retPokemon = me[0].getRandomPokemon()
                     const { name, hp, atk, level} = retPokemon
+                    console.log('------------------');
                     console.log(name,'\n', hp,'\n', atk,'\n', level)
+                    console.log('------------------');
                 }
                 break;
             case 'Quit':
